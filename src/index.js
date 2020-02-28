@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './fonts/Vesterbro-Extrabold.otf';
+import './fonts/Vesterbro-Medium.otf';
+import './fonts/Vesterbro-Poster.otf';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

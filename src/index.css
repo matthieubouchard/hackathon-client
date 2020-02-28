@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  @font-face {
+    font-family: 'VesterbroPoster';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VesterbroPoster'), url(./fonts/Vesterbro-Poster.otf) format('opentype');
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  @font-face {
+    font-family: 'VesterbroMedium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VesterbroMedium'), url(./fonts/Vesterbro-Medium.otf) format('opentype');
+  }
+
+  @font-face {
+    font-family: 'VesterbroExtrabold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VesterbroExtrabold'), url(./fonts/Vesterbro-Extrabold.otf) format('opentype');
+  }
+
+  h1 {
+    font-family: 'Vesterbro-Poster';
+  }

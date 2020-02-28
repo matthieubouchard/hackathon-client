@@ -10,11 +10,8 @@ import Home from "./components/home";
 function App() {
   return (
     <Router>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet"></link>
       <div className="App">
-        <header className="App-header">
-          <img src="https://www.eastfieldcollege.edu/au/govaffairs/votes/publishingimages/vote-464x464.png" className="App-logo" alt="logo" />
-        </header>
-
         <div>
           <Route exact path="/" component={Home} />
           <Route exact path="/candidates" component={Candidates} />
