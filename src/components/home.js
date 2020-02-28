@@ -17,6 +17,9 @@ function Home() {
       <Link to="/candidates">Candidates</Link>
       <br/>
       <button onClick={hitApi}>test api</button>
+      <p className="font-test-poster">Poster test</p>
+      <p className="font-test-extra-bold">Extra Bold test</p>
+      <p className="font-test-medium">Medium test</p>
     </div>
   );
 }
