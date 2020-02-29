@@ -29,5 +29,66 @@
   font-family: 'VesterbroMedium';
 }
 
+/* colors */
 
+.black {
+  color: #222344;
+}
+
+.red {
+  color: #FD9FA0;
+}
+
+.mint {
+  color: #AEE4CD
+}
+
+.yellow {
+ color: #FFE9A9;
+}
+
+.blue {
+  color: #5CB3FF;
+}
+
+.purple {
+  color: #998DC6;
+}
+
+.background-color {
+  color: #222344;
+}
+
+
+/* typography */
+
+.candidate-name{
+  font-family: Montserrat-Bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.page-headers {
+  font-family: 'VesterbroExtrabold';
+  font-size: 40px;
+  color: #0089FF;
+  text-align: center;
+  line-height: 80px;
+}
+
+.mega-header {
+  font-family: 'VesterbroPoster';
+  font-size: 64px;
+  color: #0089FF;
+  text-align: center;
+  line-height: 80px;
+}
+
+.inline-link {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  color: #0089FF;
+  text-align: left;
+}
 
